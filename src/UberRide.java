@@ -1,23 +1,23 @@
 public class UberRide {
     //States or instance variables
     /*
+        driver id
         driver name
         driver vehicle type
         driver vehicle number
         driver vehicle description
         driver profile picture
-        driver location
+        driver current location
         driver rating
 
+        customer id
         customer name
-        customer password
         customer payment information
-        customer profile picture
         customer location
         customer rating
 
         estimated arrival time
-        ride completion status
+        ride status
 
      */
 
@@ -28,14 +28,14 @@ public class UberRide {
     // Behaviors or functions or methods
 
     /*
-        search ride
+
         order ride
         cancel ride
 
         ride payment
         add tip
         add driver rating
-        add customer rating
+
 
 
      */

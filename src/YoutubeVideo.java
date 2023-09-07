@@ -13,9 +13,10 @@ public class YoutubeVideo {
         video comments
         video share link
         video download url
+        video visibility status
 
+        channel id
         channel name
-        channel subscribers
         channel profile picture
 
 
@@ -29,7 +30,6 @@ public class YoutubeVideo {
 
     /*
         add video title
-        add video url
         add video description
         add video thumbnail
 
@@ -46,10 +46,9 @@ public class YoutubeVideo {
         report video
 
         add comment
+        view comment
         edit comment
         remove comment
-        subscribe to channel
-
 
 
 

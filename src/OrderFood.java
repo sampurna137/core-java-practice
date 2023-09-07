@@ -5,9 +5,13 @@ public class OrderFood {
         food quantity
         food description
 
+        food price
+        delivery charge
+        tax
+        extra note
+
         username
-        user password
-        user address
+        delivery address
         payment information
 
 
@@ -20,15 +24,16 @@ public class OrderFood {
     // Behaviors or functions or methods
 
     /*
-        add food item
+
         purchase food (payment)
 
         edit food item
         remove food item
+        cancel order
 
         add user details
         edit user details
-        delete user account
+
 
      */
 }
