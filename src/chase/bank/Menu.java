@@ -1,15 +1,87 @@
 package chase.bank;
 
 public class Menu {
-    int menuId;
-    String name;
-    String slug;
-    boolean isExternal;
-    String externalURL;
-    boolean isActive;
-    int parentId;
-    boolean isLeaf;
+    private int menuId;
+    private String name;
+    private String slug;
+    private boolean isExternal;
+    private String externalURL;
+    private boolean isActive;
+    private int parentId;
+    private boolean isLeaf;
+    private int langId;
 
+    public int getLangId() {
+        return this.langId;
+    }
+
+    public void setLangId(int langId) {
+        this.langId = langId;
+    }
+
+    public int getMenuId() {
+        return this.menuId;
+    }
+
+    public void setMenuId(int menuId) {
+        this.menuId = menuId;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSlug() {
+        return this.slug;
+    }
+
+    public void setSlug(String slug) {
+        this.slug = slug;
+    }
+
+    public boolean isExternal() {
+        return this.isExternal;
+    }
+
+    public void setExternal(boolean external) {
+        isExternal = external;
+    }
+
+    public String getExternalURL() {
+        return this.externalURL;
+    }
+
+    public void setExternalURL(String externalURL) {
+        this.externalURL = externalURL;
+    }
+
+    public boolean isActive() {
+        return this.isActive;
+    }
+
+    public void setActive(boolean active) {
+        isActive = active;
+    }
+
+    public int getParentId() {
+        return this.parentId;
+    }
+
+    public void setParentId(int parentId) {
+        this.parentId = parentId;
+    }
+
+    public boolean isLeaf() {
+        return this.isLeaf;
+    }
+
+    public void setLeaf(boolean leaf) {
+        isLeaf = leaf;
+    }
 }
 /*
     menu id: 1
